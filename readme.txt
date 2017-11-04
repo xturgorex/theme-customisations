@@ -1,8 +1,8 @@
 === Theme Customisations ===
-Contributors: jameskoster, woothemes
-Tags: theme, edit, edits, customise, customisation, customize, customization, css, php, jquery
+Contributors: xturgorex, jameskoster, woothemes
+Tags: theme, edit, edits, customise, customisation, customize, customization, css, php, jquery, gulp, browsersync, sass, concat, minify
 Requires at least: 3.0.0
-Tested up to: 4.5.2
+Tested up to: 4.8.1
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -10,6 +10,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 A handy little plugin to contain your theme/plugin customisation snippets.
 
 == Description ==
+
+This is a fork of the Theme Customisations Wordpress plugin. It was originally developed by Woothemes and James Koster. I have incorporated Gulp to it, in order to automate tasks much in the way a child theme would be. This Gulp workflow includes: Browser Sync, Sass, JS Concat and Minify.
 
 Think of this plugin as an alternative to adding code snippets to the functions.php, or style.css file in your child theme. Why? It keeps all of your changes in one location, independent of the other components that make up your web site. That means you can safely perform theme / plugin updates without the worry of losing your modifications as well as easily deactivating your customisations to check for conflicts.
 

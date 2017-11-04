@@ -3,7 +3,7 @@
  * Functions.php
  *
  * @package  Theme_Customisations
- * @author   WooThemes
+ * @author   WooThemes & Turner Kilgore
  * @since    1.0.0
  */
 
